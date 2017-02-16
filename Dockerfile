@@ -3,4 +3,4 @@ MAINTAINER MOHSEN@IPROPERTY
 
 ENV DEBIAN_FRONTEND noninteractive
 
-pip install pillow, imagehash,
+pip install pillow, imagehash
