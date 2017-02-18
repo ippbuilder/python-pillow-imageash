@@ -5,4 +5,4 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && apt-get install -y --no-install-recommends libjpeg-dev zlib1g-dev python-numpy python-scipy \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/* \
- && pip install Pillow imagehash
+ && pip install Pillow imagehash boto
