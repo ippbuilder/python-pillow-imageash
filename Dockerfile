@@ -8,4 +8,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends libjpeg-dev zli
  && curl -o pip_installer.py https://bootstrap.pypa.io/get-pip.py \
  && python pip_installer.py \
  && /usr/local/bin/pip -V \
- && /usr/local/bin/pip install Pillow imagehashc simhash
+ && /usr/local/bin/pip install Pillow imagehash simhash
